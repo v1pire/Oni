@@ -1,5 +1,6 @@
 ﻿namespace Oni
 {
+    [Serializable]
     internal class Neuron
     {
         public List<WeighLink> Weights = new List<WeighLink>();

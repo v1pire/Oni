@@ -12,7 +12,7 @@
 
 
             //2. Обучаем
-            int epoch = 100000;
+            int epoch = 120000;
             for(int i = 0; i < epoch; i++)
             {
                 inputLayer.SetData(new float[] { 1, 0, 1 });
@@ -42,6 +42,24 @@
                 
                 inputLayer.SetData(new float[] { 1, 1, 1 });
                 outputLayer.SetNeedValues(new float[] { 1 });
+
+
+                outputLayer.Train();
+                hiddenLayer2.Train(outputLayer);
+                hiddenLayer.Train(hiddenLayer2);
+                /// /// ///
+                
+                inputLayer.SetData(new float[] { 2, 3, 5 });
+                outputLayer.SetNeedValues(new float[] { 1 });
+
+
+                outputLayer.Train();
+                hiddenLayer2.Train(outputLayer);
+                hiddenLayer.Train(hiddenLayer2);
+                /// /// ///
+
+                inputLayer.SetData(new float[] { 2, 0, 5 });
+                outputLayer.SetNeedValues(new float[] { 0 });
 
 
                 outputLayer.Train();
