@@ -1,0 +1,4 @@
+D:\Oni\obj\Debug\netcoreapp3.0\Oni.GeneratedMSBuildEditorConfig.editorconfig
+D:\Oni\obj\Debug\netcoreapp3.0\Oni.AssemblyInfoInputs.cache
+D:\Oni\obj\Debug\netcoreapp3.0\Oni.AssemblyInfo.cs
+D:\Oni\obj\Debug\netcoreapp3.0\Oni.csproj.CoreCompileInputs.cache

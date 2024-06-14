@@ -1,0 +1,15 @@
+D:\Oni\obj\Debug\net7.0-windows\Oni.GeneratedMSBuildEditorConfig.editorconfig
+D:\Oni\obj\Debug\net7.0-windows\Oni.AssemblyInfoInputs.cache
+D:\Oni\obj\Debug\net7.0-windows\Oni.AssemblyInfo.cs
+D:\Oni\obj\Debug\net7.0-windows\Oni.csproj.CoreCompileInputs.cache
+D:\Oni\bin\Debug\net7.0-windows\Oni.exe
+D:\Oni\bin\Debug\net7.0-windows\Oni.dll.config
+D:\Oni\bin\Debug\net7.0-windows\Oni.deps.json
+D:\Oni\bin\Debug\net7.0-windows\Oni.runtimeconfig.json
+D:\Oni\bin\Debug\net7.0-windows\Oni.dll
+D:\Oni\bin\Debug\net7.0-windows\Oni.pdb
+D:\Oni\obj\Debug\net7.0-windows\Oni.dll
+D:\Oni\obj\Debug\net7.0-windows\refint\Oni.dll
+D:\Oni\obj\Debug\net7.0-windows\Oni.pdb
+D:\Oni\obj\Debug\net7.0-windows\Oni.genruntimeconfig.cache
+D:\Oni\obj\Debug\net7.0-windows\ref\Oni.dll

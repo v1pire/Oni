@@ -1,0 +1,7 @@
+D:\Oni\bin\Debug\Oni.exe.config
+D:\Oni\bin\Debug\Oni.exe
+D:\Oni\bin\Debug\Oni.pdb
+D:\Oni\obj\Debug\Oni.csproj.AssemblyReference.cache
+D:\Oni\obj\Debug\Oni.csproj.CoreCompileInputs.cache
+D:\Oni\obj\Debug\Oni.exe
+D:\Oni\obj\Debug\Oni.pdb
