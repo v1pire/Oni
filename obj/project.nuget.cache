@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z8yG+ptwdGXm9KgNplrTmqSfNifTClR572z7hcsIiuwJ5CX8qVWeF6V9iPx2F/TfsREvJ6S82St16s+6olzPeQ==",
+  "dgSpecHash": "T4QM7pTFiDeY/oXmE5O8mQYUAeW4gj9+mHdMVDK1rRtCUNoENaYvdIgzcb5x+7pYMlFIE7RUaKp3Wj+elJK49A==",
   "success": true,
-  "projectFilePath": "D:\\Oni\\Oni.csproj",
+  "projectFilePath": "C:\\Projects\\Oni\\Oni.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

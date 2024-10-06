@@ -26,32 +26,39 @@
         public virtual void Train(Layer nextLayer)
         {
             double error = 0;
+           
             foreach (var nextNeuron in nextLayer.neurons)
             {
+                double value = nextNeuron.GetValue() * (1 - nextNeuron.GetValue());
+
                 foreach (var link in nextNeuron.Weights)
                 {
                     if (link.neuron == this)
                     {
-                        error += link.weight * nextNeuron.GetValue() * (1 - nextNeuron.GetValue()) * (nextNeuron.GetValue() - link.neuron.GetValue());
+                        error += link.weight * value * (value - link.neuron.GetValue());
                     }
                 }
             }
 
+            // // // // //
+            double gradient = error * GetValue() * (1 - GetValue());
+            double mult = Settings.errorAlfa * gradient;
+
+           
             foreach (var weightLink in Weights)
             {
-                double gradient = error * GetValue() * (1 - GetValue());
-                weightLink.weight += Settings.errorAlfa * gradient * weightLink.neuron.GetValue();
+                weightLink.weight += mult * weightLink.neuron.GetValue();
             }
         }
 
         internal void RemoveNear0Weights(float power)
         {
-            List<WeighLink> remoe = new List<WeighLink>();
+            List<WeighLink> remove = new List<WeighLink>();
             foreach (WeighLink T in Weights)
             {
-                if (Math.Abs(T.weight) < power) remoe.Add(T);
+                if (Math.Abs(T.weight) < power) remove.Add(T);
             }
-            foreach (WeighLink T in remoe)
+            foreach (WeighLink T in remove)
             {
                 Weights.Remove(T);
             }
@@ -70,7 +77,6 @@
 
         internal void RemoveSimilarWeights(float power)
         {
-
             throw new NotImplementedException();
         }
     }
